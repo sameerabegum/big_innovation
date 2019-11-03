@@ -1,0 +1,44 @@
+.ui.menu {
+    background-color: #3498db;
+}
+
+.ui .item {
+    color: white;
+}
+
+.ui .item:hover {
+    color: white;
+}
+
+.ui.menu .item>.floating.label {
+    position: absolute;
+    left: 41px;
+    top: 4px;
+    padding: 4px;
+
+}
+
+.ui .card {
+    background: #fff;
+}
+
+.card {
+    width: 600px !important;
+    height: 730px !important;
+}
+
+.description {
+    padding: 12px;
+}
+
+i.icon.outline {
+    margin-left: 5px;
+}
+
+.profile-description {
+    position: absolute;
+    left: 68px;
+    top: 14px;
+    font-size: small;
+    line-height: initial;
+}

@@ -15,7 +15,6 @@
     left: 41px;
     top: 4px;
     padding: 4px;
-
 }
 
 .ui .card {
@@ -41,4 +40,13 @@ i.icon.outline {
     top: 14px;
     font-size: small;
     line-height: initial;
+}
+
+.section {
+    background-color: #EEEEEE;
+    padding: 27px;
+}
+
+.section .value {
+    color: #1A237E;
 }

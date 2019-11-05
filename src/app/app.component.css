@@ -23,7 +23,7 @@
 
 .card {
     width: 600px !important;
-    height: 730px !important;
+    height: 730px;
 }
 
 .description {
@@ -49,4 +49,14 @@ i.icon.outline {
 
 .section .value {
     color: #1A237E;
+}
+
+
+.ui .grid {
+    margin: 0;
+    color: #34495e;
+}
+
+.post-card {
+    height: 105px;
 }

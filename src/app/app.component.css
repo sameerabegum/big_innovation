@@ -60,3 +60,24 @@ i.icon.outline {
 .post-card {
     height: 105px;
 }
+
+.left-panel {
+    position: absolute;
+    margin-left: 185px;
+    width: 239px;
+}
+
+p.pavilions {
+    font-size: medium;
+}
+
+span.pavilions-list {
+    position: relative;
+    margin-left: 12px;
+    top: -8px;
+}
+
+
+.add-pavilions {
+    margin-left: 114px;
+}

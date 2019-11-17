@@ -1,18 +1,18 @@
-.ui.menu {
+.ui.inverted.menu {
     background-color: #3498db;
 }
 
-.main.fluid-container {
-  margin-top: 7em;
+.main.container {
+  margin-top: 4em;
 }
 
-.ui .item {
+/* .ui .item {
     color: white;
 }
 
 .ui .item:hover {
     color: white;
-}
+} */
 
 .ui.menu .item>.floating.label {
     position: absolute;
@@ -83,6 +83,14 @@ span.pavilions-list {
 }
 
 
-.add-pavilions {
-    margin-left: 114px;
+.position-right {
+  float: right;
+}
+
+.custom-meta {
+  margin: -8px 0px 0px 42px;
+}
+
+.ui.vertical.menu.custom {
+  width: 100%;
 }

@@ -2,6 +2,10 @@
     background-color: #3498db;
 }
 
+.main.fluid-container {
+  margin-top: 7em;
+}
+
 .ui .item {
     color: white;
 }
@@ -19,6 +23,7 @@
 
 .ui .card {
     background: #fff;
+    height: auto;
 }
 
 .card {

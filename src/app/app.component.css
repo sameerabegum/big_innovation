@@ -111,3 +111,14 @@ span.pavilions-list {
     position: relative;
     top: 40px;
 }
+
+.custom-box {
+  height: 220px;
+}
+
+
+.see-more-gallery {
+  text-align: center;
+  vertical-align: middle;
+  line-height: 200px;
+}

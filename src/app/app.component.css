@@ -3,7 +3,7 @@
 }
 
 .main.container {
-  margin-top: 4em;
+    margin-top: 4em;
 }
 
 /* .ui .item {
@@ -21,12 +21,12 @@
     padding: 4px;
 }
 
-.ui .card {
+.ui .card-list {
     background: #fff;
     height: auto;
 }
 
-.card {
+.card-list {
     width: 600px !important;
     height: 730px;
 }
@@ -84,13 +84,22 @@ span.pavilions-list {
 
 
 .position-right {
-  float: right;
+    float: right;
 }
 
 .custom-meta {
-  margin: -8px 0px 0px 42px;
+    margin: -8px 0px 0px 42px;
 }
 
 .ui.vertical.menu.custom {
-  width: 100%;
+    width: 100%;
+}
+
+.events {
+    margin: 12px;
+}
+
+.ui.fluid.events-cards {
+    width: 303px;
+    height: 248px;
 }

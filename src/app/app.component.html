@@ -97,7 +97,7 @@
       </div>
     </div>
   </div>
-  <div class="column  ">
+  <div class="column">
     <div class="ui fluid card events-cards ">
       <div class="image">
         <img src="assets/images/event2.jpg">
@@ -140,12 +140,20 @@
     </div>
   </div>
   <div class="column ">
-    <div class="ui fluid card events-cards ">
+    <div class="ui fluid card">
       <div class="image">
         <img src="assets/images/event2.jpg">
       </div>
       <div class="content">
         <a class="header">Daniel Louise</a>
+      </div>
+      <div class="extra content">
+        <span class="left floated calendar">
+          <i class="calendar icon"></i>
+          21-23 Dec
+        </span>
+        <!-- <i class="calendar check outline icon"><span class="meta">21-23 Dec</span> </i>
+        <div class="right floated meta">8 h</div> -->
       </div>
     </div>
   </div>
@@ -276,7 +284,7 @@
 
               <div class="left menu">
                 <div></div>
-                <a class="item"><i class="edit icon"></i> Message</a>
+                <a class="item" (click)="openChat()"><i class="edit icon"></i> Message</a>
                 <a class="item"><i class="call icon"></i> Call</a>
               </div>
             </div>
@@ -289,7 +297,7 @@
 
               <div class="left menu">
                 <div></div>
-                <a class="item"><i class="edit icon"></i> Message</a>
+                <a class="item" (click)="openChat()"><i class="edit icon"></i> Message</a>
                 <a class="item"><i class="call icon"></i> Call</a>
               </div>
             </div>
@@ -302,7 +310,7 @@
 
               <div class="left menu">
                 <div></div>
-                <a class="item"><i class="edit icon"></i> Message</a>
+                <a class="item" (click)="openChat()"><i class="edit icon"></i> Message</a>
                 <a class="item"><i class="call icon"></i> Call</a>
               </div>
             </div>
@@ -315,7 +323,7 @@
 
               <div class="left menu">
                 <div></div>
-                <a class="item"><i class="edit icon"></i> Message</a>
+                <a class="item" (click)="openChat()"><i class="edit icon"></i> Message</a>
                 <a class="item"><i class="call icon"></i> Call</a>
               </div>
             </div>
@@ -328,7 +336,7 @@
 
               <div class="left menu">
                 <div></div>
-                <a class="item"><i class="edit icon"></i> Message</a>
+                <a class="item" (click)="openChat()"><i class="edit icon"></i> Message</a>
                 <a class="item"><i class="call icon"></i> Call</a>
               </div>
             </div>
@@ -520,3 +528,113 @@
   </div>
 </div>
 <!-- End See more post -->
+
+
+<div class="ui modal">
+  <i class="close icon"></i>
+  <div class="header">Chat</div>
+  <div class="scrolling content">
+    <div class="ui comments">
+      <div class="comment">
+        <a class="avatar">
+          <img src="/images/avatar/small/stevie.jpg">
+        </a>
+        <div class="content">
+          <a class="author">Stevie Feliciano</a>
+          <div class="metadata">
+            <div class="date">2 days ago</div>
+          </div>
+          <div class="text">
+            Hey guys, I hope this example comment is helping you read this documentation.
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="ui comments">
+      <div class="comment">
+        <a class="avatar">
+          <img src="/images/avatar/small/stevie.jpg">
+        </a>
+        <div class="content">
+          <a class="author">Stevie Feliciano</a>
+          <div class="metadata">
+            <div class="date">2 days ago</div>
+          </div>
+          <div class="text">
+            Hey guys, I hope this example comment is helping you read this documentation.
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="ui comments">
+      <div class="comment">
+        <a class="avatar">
+          <img src="/images/avatar/small/stevie.jpg">
+        </a>
+        <div class="content">
+          <a class="author">Stevie Feliciano</a>
+          <div class="metadata">
+            <div class="date">2 days ago</div>
+          </div>
+          <div class="text">
+            Hey guys, I hope this example comment is helping you read this documentation.
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="ui comments">
+      <div class="comment">
+        <a class="avatar">
+          <img src="/images/avatar/small/stevie.jpg">
+        </a>
+        <div class="content">
+          <a class="author">Stevie Feliciano</a>
+          <div class="metadata">
+            <div class="date">2 days ago</div>
+          </div>
+          <div class="text">
+            Hey guys, I hope this example comment is helping you read this documentation.
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="ui comments">
+      <div class="comment">
+        <a class="avatar">
+          <img src="/images/avatar/small/stevie.jpg">
+        </a>
+        <div class="content">
+          <a class="author">Stevie Feliciano</a>
+          <div class="metadata">
+            <div class="date">2 days ago</div>
+          </div>
+          <div class="text">
+            Hey guys, I hope this example comment is helping you read this documentation.
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="ui comments">
+      <div class="comment">
+        <a class="avatar">
+          <img src="/images/avatar/small/stevie.jpg">
+        </a>
+        <div class="content">
+          <a class="author">Stevie Feliciano</a>
+          <div class="metadata">
+            <div class="date">2 days ago</div>
+          </div>
+          <div class="text">
+            Hey guys, I hope this example comment is helping you read this documentation.
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="extra content">
+    <div class="ui large transparent paper plane outline input custom-input">
+      <i class="right paper plane outline icon"></i>
+      <input type="text" placeholder="Type here...">
+    </div>
+  </div>
+</div>

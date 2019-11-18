@@ -103,3 +103,7 @@ span.pavilions-list {
     width: 303px;
     height: 248px;
 }
+
+.custom-input {
+  width: 80%;
+}

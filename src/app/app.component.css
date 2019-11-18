@@ -96,7 +96,7 @@ span.pavilions-list {
 }
 
 .events {
-    margin: 12px;
+    margin: 63px;
 }
 
 .ui.fluid.events-cards {
@@ -106,4 +106,8 @@ span.pavilions-list {
 
 .custom-input {
   width: 80%;
+}
+.ui.header {
+    position: relative;
+    top: 40px;
 }

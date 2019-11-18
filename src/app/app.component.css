@@ -96,10 +96,15 @@ span.pavilions-list {
 }
 
 .events {
-    margin: 12px;
+    margin: 63px;
 }
 
 .ui.fluid.events-cards {
     width: 303px;
     height: 248px;
+}
+
+.ui.header {
+    position: relative;
+    top: 40px;
 }
